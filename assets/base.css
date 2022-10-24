@@ -1,0 +1,36 @@
+.btn{
+    min-width: 4rem;
+    text-emphasis: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: black;
+    display: block;
+    text-align: center;
+    margin-left: 0.8rem;
+    height: 4rem;
+    background-color: transparent;
+    padding: 0.8rem;
+}
+.focus-visible{
+    display: block !important;
+}
+.focus-hidden{
+    display: none !important;
+}
+/* active navigation and guide */
+.footer-navigation_item.active,
+.navigation_item.active,
+.guide-list__item.active >span{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.mr-g-0{
+    margin-right: 0 !important;
+}
+.pd-0{
+    padding: 0 !important;
+}
